@@ -1,0 +1,9 @@
+timeblock.settings_form:
+  path: '/admin/config/timeblock/settings'
+  defaults:
+    _form: '\Drupal\timeblock\Form\SettingsForm'
+    _title: 'Date Time Settings Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

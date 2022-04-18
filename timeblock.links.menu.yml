@@ -1,0 +1,6 @@
+timeblock.admin_settings_form:
+  title: 'Custom Date Time Configuration Form'
+  route_name: timeblock.settings_form
+  description: 'ACF to configure and add the datetime block'
+  parent: system.admin_config_system
+  weight: 99

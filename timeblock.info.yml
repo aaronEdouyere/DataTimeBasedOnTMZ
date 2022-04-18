@@ -1,0 +1,5 @@
+name: Date Time Block
+type: module
+description: The module provides an ACF and a custom block
+core_version_requirement: ^8 || ^9
+package: Custom modules

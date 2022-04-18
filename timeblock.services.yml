@@ -1,0 +1,4 @@
+services:
+  timeblock.get_datetime_service:
+    class: Drupal\timeblock\GetDateTimeService
+    arguments: ['@config.factory', '@datetime.time', '@date.formatter']
