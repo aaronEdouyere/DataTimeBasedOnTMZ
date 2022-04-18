@@ -45,7 +45,7 @@ class DateTimeBlock extends BlockBase implements ContainerFactoryPluginInterface
      * @param array $configuration
      * @param string $plugin_id
      * @param mixed $plugin_definition
-     * @param \Drupal\Core\Session\AccountProxyInterface $account
+     * @param \Drupal\timeblock\GetDateTimeService $datetimeservice
      */
     public function __construct(array $configuration, $plugin_id, $plugin_definition, GetDateTimeService $datetimeservice) {
         parent::__construct($configuration, $plugin_id, $plugin_definition);
